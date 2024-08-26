@@ -1,10 +1,5 @@
 
-### `tui-text-rust` 프로젝트의 README
-
-```markdown
-# tui-text-rust
-
-`tui-text-rust`는 Rust 언어로 작성된 터미널 기반 사용자 인터페이스(TUI) 프로그램으로, 사용자가 입력한 제목과 내용을 텍스트 파일로 저장합니다.
+각 디렉토리는 개별 프로젝트를 나타내며, 각 프로젝트는 독립적으로 실행 가능합니다.
 
 ## 기능
 
@@ -14,13 +9,40 @@
 
 ## 요구 사항
 
-- Rust 설치 (https://www.rust-lang.org)
+- **tui-text-c**: GCC (GNU Compiler Collection) 또는 다른 C 컴파일러
+- **tui-text-rust**: Rust 설치 (https://www.rust-lang.org)
 
 ## 설치 및 실행
 
-1. 프로젝트를 클론하거나 로컬에 복사합니다.
-2. 터미널을 열고 프로젝트 디렉토리로 이동합니다.
-3. 다음 명령어를 사용하여 프로그램을 실행합니다:
+### `tui-text-c`
+
+1. `tui-text-c` 디렉토리로 이동합니다.
+
+    ```bash
+    cd tui-text/tui-text-c
+    ```
+
+2. 다음 명령어를 사용하여 프로그램을 컴파일합니다:
+
+    ```bash
+    gcc main.c -o tui-text-c
+    ```
+
+3. 프로그램을 실행합니다:
+
+    ```bash
+    ./tui-text-c
+    ```
+
+### `tui-text-rust`
+
+1. `tui-text-rust` 디렉토리로 이동합니다.
+
+    ```bash
+    cd tui-text/tui-text-rust
+    ```
+
+2. 다음 명령어를 사용하여 프로그램을 실행합니다:
 
     ```bash
     cargo run
